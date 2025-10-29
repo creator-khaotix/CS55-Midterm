@@ -468,6 +468,7 @@ a {
     gold var(--percent),
     rgba(0, 0, 0, 0.2) var(--percent)
   );
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
