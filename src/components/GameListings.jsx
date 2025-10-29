@@ -33,6 +33,9 @@ const ImageCover = ({ photo, name }) => (
 
 const GameDetails = ({ game }) => (
   <div className="game__details">
+    <div className="game__rating-display">
+      {game.avgRating.toFixed(1)}
+    </div>
     <h2>{game.name}</h2>
     <GameRating game={game} />
     <GameMetadata game={game} />

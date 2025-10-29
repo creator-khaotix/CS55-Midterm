@@ -6,9 +6,12 @@ import { getAuthenticatedAppForUser } from "@/src/lib/firebase/serverApp";
 export const dynamic = "force-dynamic";
 
 export const metadata = {
-  title: "Best Games of All Time",
+  title: "Top Games of All Time",
   description:
-    "Best Games of All Time is a game rating and review website built with Next.js and Firebase.",
+    "Top Games of All Time is a game rating and review website built with Next.js and Firebase.",
+  icons: {
+    icon: '/favicon.svg',
+  },
 };
 
 export default async function RootLayout({ children }) {

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="matrixGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#003d00;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#00ff41;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00cc33;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="30" fill="#0f172a" stroke="url(#matrixGreen)" stroke-width="2"/>
+  
+  <!-- Game controller shape -->
+  <path d="M 20 28 Q 15 28 15 32 L 15 38 Q 15 42 20 42 L 24 42 Q 26 42 26 40 L 26 30 Q 26 28 24 28 Z" 
+        fill="url(#matrixGreen)"/>
+  <path d="M 44 28 Q 49 28 49 32 L 49 38 Q 49 42 44 42 L 40 42 Q 38 42 38 40 L 38 30 Q 38 28 40 28 Z" 
+        fill="url(#matrixGreen)"/>
+  <rect x="24" y="30" width="16" height="8" rx="2" fill="url(#matrixGreen)"/>
+  
+  <!-- D-pad on left -->
+  <line x1="20" y1="32" x2="20" y2="38" stroke="#0f172a" stroke-width="1.5"/>
+  <line x1="17" y1="35" x2="23" y2="35" stroke="#0f172a" stroke-width="1.5"/>
+  
+  <!-- Buttons on right -->
+  <circle cx="42" cy="33" r="2" fill="#0f172a"/>
+  <circle cx="46" cy="37" r="2" fill="#0f172a"/>
+  
+  <!-- Center button -->
+  <circle cx="32" cy="34" r="1.5" fill="#00ff41" opacity="0.8"/>
+</svg>
+

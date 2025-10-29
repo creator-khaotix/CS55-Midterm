@@ -70,10 +70,10 @@ export default function Header({ initialUser }) {
     <header>
       {/* Logo link that navigates to home page */}
       <Link href="/" className="logo">
-        {/* Best Games logo image */}
-        <img src="/friendly-eats.svg" alt="Best Games" />
+        {/* Top Games of All Time logo image */}
+        <img src="/friendly-eats.svg" alt="Top Games of All Time" />
         {/* Logo text */}
-        Best Games
+        Top Games of All Time
       </Link>
       {/* Conditional rendering based on user authentication status */}
       {user ? (
